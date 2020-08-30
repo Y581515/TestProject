@@ -16,7 +16,7 @@ public class timeMinutSekund {
 		int minutter = restSekunder / 60;
 		int sek = restSekunder % 60;
 		
-		String resultat = "tekst"+timer;
+		String resultat = ""+timer;
 			if (timer ==1) {
 				resultat = resultat + "time, ";
 			} else {

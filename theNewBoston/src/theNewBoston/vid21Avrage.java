@@ -5,9 +5,9 @@ public class vid21Avrage {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		int total=0;
-		int grade;
-		int average;
+		double total=0;
+		double grade;
+		double average;
 		int counter=0;
 		
 		while (counter < 10){
@@ -16,7 +16,7 @@ public class vid21Avrage {
 			counter++;
 			
 		}
-		average=total/10;
+		average=total/counter;
 		System.out.println("your average is "+average);
 	}
 
