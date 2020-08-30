@@ -19,7 +19,10 @@ public class Guess {
       melding = "Tenkte du på " + tall + "? "
               + "Skriv 0 for ja, -1 hvis for høyt, "
               + "1 hvis for lavt:";
-      int svar = parseInt( showInputDialog(melding) );    
+      int svar = parseInt( showInputDialog(melding) );  
+      
+      System.out.println(tall);
+
 
       if ( svar == 0 )
         riktigGjettet = true;
@@ -32,6 +35,8 @@ public class Guess {
         riktigGjettet = true;    
        
       tall = (laveste + høyeste) / 2;
+      System.out.println(laveste);
+      System.out.println(tall);
       
     }
 
