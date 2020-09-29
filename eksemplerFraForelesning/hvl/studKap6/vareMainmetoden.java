@@ -19,7 +19,6 @@ public class vareMainmetoden {
 		vare v3=new vare(3, "løk", 6.9);
 		v3.skriveUt();
 		System.out.println(v3.toString());
-		System.out.println(v3);
 		
 		vare v4=new vare(4, "løk");
 		v4.skriveUt();

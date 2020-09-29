@@ -8,7 +8,7 @@ public class Dialog {
 	public static void main(String[] args) {
 		String tallTxt = showInputDialog("Gi et tall");
 		int tall = parseInt(tallTxt);
-		int dobbel = tall*2;
+		int dobbel = tall*2*1;
 		String UtTxt = "svar: "+ dobbel;
 		showMessageDialog(null,UtTxt);
 	}
