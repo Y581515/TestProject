@@ -8,19 +8,20 @@ public class TestDag {
 		}System.out.println();
 		System.out.println();
 		
-		Dag d1=Dag.LØRDAG;
+		Dag d1=Dag.MANDAG;
 		System.out.println("d1= "+d1);
 		System.out.println("d1 Indeks = "+d1.ordinal()+"\n");
 		
-		String svar="Vanlig vekedag";
+		String svar="";
 		switch(d1) {
 		case LØRDAG: 
-			svar="Lørdagsrute: ";
+			svar="Lørdagsrute: bussen kommer hver halv time. ";
 			break;
 		case SØNDAG: 
-			svar="Søndagsrute: ";
+			svar="Søndagsrute: bussen kommer hver time.";
 			break;
 		default:
+			svar="Vanlig vekedag";
 		}
 		System.out.println(svar);
 		

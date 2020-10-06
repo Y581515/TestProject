@@ -33,11 +33,7 @@ public class vare {
 		this.antall=antall;		
 	}
 	
-	
-	
-	
-	
-	
+
 	public vare() {
 	}
 	

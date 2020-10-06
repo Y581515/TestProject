@@ -21,6 +21,7 @@ public class StudentTable {
 			System.out.println("fann ikke Studenden");
 		}
 		
+		
 		String navn="Peter";
 		Student s2=sok2(sTab, navn);
 		if(s2 != null) {
@@ -31,7 +32,9 @@ public class StudentTable {
 			System.out.println("fann ikke Studenden: "+ navn);
 		}	
 		
+		
 	}
+	
 	
 	public static Student sok2(Student [] tab, String navn) {
 		int i=0;
@@ -45,10 +48,7 @@ public class StudentTable {
 				i++;
 			}
 		}
-		
-		
 		return svar;
-
 	}
 	
 	public static Student sok(Student [] tab, int tall) {
@@ -62,11 +62,8 @@ public class StudentTable {
 			}else {
 				i++;
 			}
-		}
-		
+		}	
 		
 		return svar;
-
 	}
-
 }
