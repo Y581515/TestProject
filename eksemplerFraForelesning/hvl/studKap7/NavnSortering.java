@@ -17,6 +17,7 @@ public class NavnSortering {
 		String [] navnTab= new String [antNavn];
 		
 		for(int i=0;i<antNavn;i++) {
+			
 			navnTab[i]=leser.nextLine();
 		}
 		leser.close();
@@ -27,7 +28,7 @@ public class NavnSortering {
 		PrintWriter skriver = new PrintWriter(utfil);
 		
 		for(String navn: navnTab) {
-			System.out.println(navn);
+			skriver.println(navn);
 		}skriver.close();
 		
 	}
