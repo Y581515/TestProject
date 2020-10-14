@@ -13,7 +13,7 @@ public class VareLagerkap7 {
 		final int MAX_ANT=100;
 		vare[] vareListe= new vare [MAX_ANT];
 		
-		String filnavn= "varedata.txt";
+		String filnavn= "/Users/yfess/git/TestProject/eksemplerFraForelesning/hvl/studKap7/varedata.txt";
 		File fil=new File(filnavn);
 		Scanner leser=new Scanner(fil);
 		
@@ -36,15 +36,27 @@ public class VareLagerkap7 {
 			
 			//leg inn i tabell
 			vareListe[antVarer]= new vare(nr,navn,pris,antall);
+			//liten test
+			//vareListe[antVarer].skriveUt();
+			
 			antVarer++;		
 				
 		}leser.close();
 		
+		//skriveUt alt
 		for(int i=0; i<antVarer;i++) {
-			System.out.println(vareListe[i]);
+			System.out.println(vareListe[i].toString());
+		}System.out.println("\n");
+		
+		
+		//skriver Ut det som inneholder Spesefik steng
+		String sokeStreng="tt";
+		for(int i=0; i<antVarer;i++) {
+			if(vareListe[i].getNavn().contains(sokeStreng)) {
+				System.out.println(vareListe[i]);
+			}
+			
 		}
-		
-		
 				
 	}
 
