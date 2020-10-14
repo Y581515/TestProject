@@ -56,7 +56,7 @@ public class vare {
 	}
 	
 	public void skriveUt() {
-		System.out.println("nr= "+nr+", navn= "+navn+", pris= "+pris+", antall= "+antall);
+		System.out.println("nr="+nr+", navn="+navn+", pris="+pris+", antall="+antall);
 	}
 	public String toString() {
 		return nr+" "+navn+" "+pris+" "+antall;

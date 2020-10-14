@@ -38,6 +38,7 @@ public class VareLagerkap7 {
 			vareListe[antVarer]= new vare(nr,navn,pris,antall);
 			//liten test
 			//vareListe[antVarer].skriveUt();
+//			System.out.println(vareListe[antVarer].toString());
 			
 			antVarer++;		
 				
