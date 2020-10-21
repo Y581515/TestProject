@@ -5,7 +5,7 @@
 	<classpathentry kind="src" path="EasyGraphicsTest/src"/>
 	<classpathentry kind="src" path="theNewBoston/src"/>
 	<classpathentry kind="src" path="eksemplerFraForelesning"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
