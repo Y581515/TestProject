@@ -5,11 +5,11 @@
 	<classpathentry kind="src" path="EasyGraphicsTest/src"/>
 	<classpathentry kind="src" path="theNewBoston/src"/>
 	<classpathentry kind="src" path="eksemplerFraForelesning"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/yfess/Desktop/dat100/dat100public-master/dat100public-master/easygraphics/lib/easygraphics.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yfess/Downloads/dat100public-master/dat100public-master/easygraphics/lib/easygraphics.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
